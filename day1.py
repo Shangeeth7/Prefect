@@ -8,7 +8,8 @@ def message_ret():
 
 @flow
 def something():
-    msg = 10
+    msg = 10    
+    
     return msg
 
 
@@ -18,4 +19,9 @@ def first_function():
     msg2 = something()
     print(msg,msg2)
 
-first_function()
+
+if __name__ == "__main__":
+    first_function()
+
+
+
